@@ -2,6 +2,7 @@ package com.muller.community.dao;
 
 import com.muller.community.entity.User;
 import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Param;
 
 @Mapper
 public interface UserMapper {
@@ -14,11 +15,11 @@ public interface UserMapper {
 
     int insertUser(User user);//返回插入的行数
 
-    int updateStatus(int id, int status);
+    int updateStatus(@Param("id") int id,@Param("status") int status);
 
-    int updateHeader(int id,String headerUrl);
+    int updateHeader(@Param("id") int id,@Param("headerUrl") String headerUrl);
 
-    int updatePassword(int id, String password);
+    int updatePassword(@Param("id") int id,@Param("password") String password);
 
 
 }
