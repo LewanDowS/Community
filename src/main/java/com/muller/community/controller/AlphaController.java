@@ -1,6 +1,6 @@
 package com.muller.community.controller;
 
-import com.muller.community.Service.AlphaService;
+import com.muller.community.service.AlphaService;
 import com.muller.community.util.CommunityUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

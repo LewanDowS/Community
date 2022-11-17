@@ -1,4 +1,4 @@
-package com.muller.community.Service;
+package com.muller.community.service;
 
 import com.muller.community.dao.AlphaDao;
 import org.springframework.beans.factory.annotation.Autowired;

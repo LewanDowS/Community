@@ -1,7 +1,7 @@
 package com.muller.community.controller;
 
 import com.google.code.kaptcha.Producer;
-import com.muller.community.Service.UserService;
+import com.muller.community.service.UserService;
 import com.muller.community.entity.User;
 import com.muller.community.util.CommunityConstant;
 import org.apache.commons.lang3.StringUtils;

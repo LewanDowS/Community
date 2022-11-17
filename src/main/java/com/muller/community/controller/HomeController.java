@@ -1,7 +1,7 @@
 package com.muller.community.controller;
 
-import com.muller.community.Service.DiscussPostService;
-import com.muller.community.Service.UserService;
+import com.muller.community.service.DiscussPostService;
+import com.muller.community.service.UserService;
 import com.muller.community.entity.DiscussPost;
 import com.muller.community.entity.Page;
 import com.muller.community.entity.User;

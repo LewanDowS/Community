@@ -1,4 +1,4 @@
-package com.muller.community.Service;
+package com.muller.community.service;
 
 import com.muller.community.dao.LoginTicketMapper;
 import com.muller.community.dao.UserMapper;
@@ -159,6 +159,10 @@ public class UserService implements CommunityConstant {
 
     public void logout(String ticket) {
         loginTicketMapper.updateStatus(ticket, 1);
+    }
+
+    public LoginTicket findLoginTicket(String ticket) {
+        return loginTicketMapper.selectByTicket(ticket);
     }
 
 }
